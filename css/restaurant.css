@@ -1,0 +1,134 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  width: auto;
+}
+
+#top-content {
+  background-image: url("../Assets/background-home1.png");
+}
+
+#SendBtn {
+  background-color: #afb8b1;
+}
+
+header {
+  background-color: #e3d5cc;
+}
+
+main {
+  display: block;
+}
+
+footer {
+  background-color: #e3d5cc;
+  margin-top: 40px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+#restaurant {
+  height: 100%;
+  background: linear-gradient(to right, #7f8b82 50%, white 50%);
+  padding-bottom: 100px;
+
+  /*background-color: #7F8B82;*/
+  /*width: 50%;*/
+  /* float: left; */
+}
+
+#reviews {
+  height: 100%;
+  background: linear-gradient(to bottom, #e3d5cc 50%, white 50%);
+}
+
+#best-food {
+  font-family: Lovers Quarrel;
+}
+
+#leftContent {
+  background-color: #7f8b82;
+}
+
+#left_footer {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+
+main h1 {
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 5px;
+}
+
+#restaurant h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#reviews h1 {
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: rgb(172, 124, 97);
+  text-shadow: 4px 4px 7px grey;
+}
+
+#content-restaurant {
+  background-color: #e3d5cc;
+  height: 400px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#rightcontent-restaurant {
+  height: 100%;
+}
+
+#nama-restaurant {
+  margin-left: 75px;
+}
+
+#leftContent-restaurant {
+  position: relative;
+  margin: 30px 0;
+}
+
+#gmbr {
+  width: 300px;
+  height: 274px;
+}
+
+#sliderItem {
+  justify-content: center;
+}
+
+#rightContent img{
+  width: 22.8rem;
+}
+
+#content-restaurant{
+  height: 400px;
+}
+
+#textSlide{
+  color: whitesmoke;
+  margin-right: 19px;
+}
+
+.backgtopcontent{
+  width: 0;
+  height: 0;
+  border-top: 400px solid #E3D5CC;
+  border-left: 1282px solid transparent;
+  position: absolute;
+  bottom: 150px;
+  right: 1px;
+}

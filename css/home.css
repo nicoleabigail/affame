@@ -1,0 +1,244 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    width: auto;
+}
+
+
+#top-content{
+    background-image: url("../Assets/background-home1.png");
+}
+
+#SendBtn{
+    background-color: #AFB8B1;
+}
+
+header{
+    background-color: #E3D5CC;
+}
+
+main{
+    display: block;
+}
+
+footer{
+    background-color: #E3D5CC;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+#top-content{
+    /* background-color: yellow; */
+    width: 100%;
+    min-height: 440px;
+    /* background-image: url("../Assets/background-home1.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#best-food{
+    font-family: Lovers Quarrel;
+}
+
+#FindNow{
+    background-color: #E3D5CC;
+}
+
+.promotion img{
+    width: 100%;
+}
+
+#left_footer{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+main h1 {
+    font-size: 30px;
+}
+
+#promotion{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+#promotion-image{
+    width: 100%;
+    min-height: 440px;
+}
+#promotion-image img{
+    min-width: 1000px;
+    align-items: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  #promotion{
+    background-color: #E3D5CC;
+  }
+/* 
+  #bottom-content{
+      
+  } */
+  
+  .mid-content{
+    top:0;
+    left: 0;
+    width:50%;
+    height: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+/* .midcontent-home{
+    display: grid;
+    padding-top: 2%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 5%;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 3.5%;
+}
+
+.midcontent{
+    text-align: center;
+    width: 1024px;
+    margin: auto;
+}
+
+.midcontent b{
+    font-size: 35px;
+}
+
+.gambarproduct{
+    position: relative;
+    height: 270px;
+    text-align: start;
+    width: 95%;
+}
+
+.gambarproduct img{
+    width: 100%;
+    height: 270px;
+    border-radius:  20px 0 0 20px;
+}
+
+.name{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    width: 100%;
+    text-align: center;
+}
+
+.name img{
+    width: 130px;
+    height: 100px;
+}
+
+.atas b{
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+
+.tengah b{
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.bawah b{
+    font-size: 18px;
+    background-color: rgba(7, 7, 7,0.5);
+    width: 48%;
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+}
+
+.ket{
+    color: white;
+    width: 70%;
+}
+
+.atas1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.tengah1{
+    font-size: 15px;
+    text-align: center;
+}
+
+.tengah1 p{
+    font-size: 12px;
+    text-align: center;
+}
+
+.bawah1{
+    font-size: 15px;
+    width: 48%;
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+}
+
+.btn{
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 0 0 5px white;
+    padding: 2%;
+    color: black;
+} */
+
+#bottom-content{
+    background-color: #E3D5CC
+}

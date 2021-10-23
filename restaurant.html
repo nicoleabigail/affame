@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./css/restaurant.css" />
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+
+    <!-- fontawesame -->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <title>Affame</title>
+  </head>
+  <body>
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 sticky-top">
+      <a href="home.html">
+        <img src="./Assets/affamè.png" alt="" height="75" class="mx-5" />
+      </a>
+
+      <div class="search position-relative">
+        <div class="position-absolute top-50 end-0 translate-middle mx-2 mb-2">
+          <i class="fa fa-search"></i>
+        </div>
+        <input type="text" class="form-control rounded-pill" placeholder="Search..." />
+      </div>
+
+      <ul class="nav col-12 col-md-auto mb-2 mx-5 justify-content-center mb-md-0">
+        <li><a href="restaurant.html" class="nav-link px-2 link-dark">Restaurant</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Membership</a></li>
+        <li><a href="aboutus.html" class="nav-link px-2 link-dark">About</a></li>
+        <li>
+          <a href="#" class="nav-link px-2 link-dark"><i class="fas fa-shopping-cart fa-lg"></i></a>
+        </li>
+        <li>
+          <a href="account.html" class="nav-link px-2 link-dark"><i class="far fa-user-circle fa-lg"></i></a>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <div id="restaurant">
+        <h1>RESTAURANT</h1>
+        <div id="content-restaurant" class="row my-auto">
+          <div id="leftContent-restaurant" class="col-6 text-center">
+            <div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade col-6 mx-auto" data-bs-ride="carousel">
+              <div class="sliderItem">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" style="width: 20rem">
+                    <h3 id="textSlide">Strawberry Cake</h3>
+                    <div class="card">
+                      <img src="./Assets/stroberi.jpg" class="card-img-top mx-auto d-block" alt="..." id="gmbr" />
+                    </div>
+                  </div>
+                  <div class="carousel-item" style="width: 20rem">
+                    <h3 id="textSlide">Milky Strawberry</h3>
+                    <div class="card mx-auto">
+                      <img src="./Assets/minuman_stroberi.jpg" class="card-img-top mx-auto d-block" alt="..." id="gmbr" />
+                    </div>
+                  </div>
+                  <div class="carousel-item" style="width: 20rem">
+                    <h3 id="textSlide">S'mores Cake</h3>
+                    <div class="card">
+                      <img src="./Assets/makanan.jpg" class="card-img-top mx-auto d-block" alt="..." id="gmbr" />
+                    </div>
+                  </div>
+
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="rightContent-restaurant" class="col-6 text-center">
+            <div id="rightContent" class="">
+              <img src="./Assets/gambar3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--    
+        <div class="" id="restaurant">
+          <div class="float-left" id="leftContent">
+        <h1>RESTAURANT</h1>
+          </div>
+          <div id="centerContent" class="align-item-center">
+          </div>
+        </div>
+        </div>
+          -->
+      <div id="reviews">
+        <h1>REVIEWS</h1>
+        <!-- review -->
+        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- item 1 -->
+            <div class="carousel-item active">
+              <div class="row">
+                <!-- card 1 -->
+                <div class="card mx-auto" style="width: 21rem">
+                  <img src="./Assets/gambar1.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">Each time we go, we always order the different assortments of dessert, such as blueberry cheesecake, mint-chocolate icecream, silky pudding, and cupcakes.</p>
+                  </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card mx-auto" style="width: 18rem">
+                  <img src="./Assets/gambar2.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">Original Donughts are one of my favourites. The donughts are seasoned with an icing sugar, with choco-peanut topping which makes for a heavenly delight.</p>
+                  </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card mx-auto" style="width: 18rem">
+                  <img src="./Assets/gambar3.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">This intimate and cozy restaurant is locate in North Jakarta. It seats about 18, with small tables and wooden stools for seats and has an extensive menu for BBQ items. The service is quite good.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- item 2 -->
+            <div class="carousel-item">
+              <div class="row">
+                <!-- card 1 -->
+                <div class="card mx-auto" style="width: 21rem">
+                  <img src="./Assets/gambar1.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">Each time we go, we always order the different assortments of dessert, such as blueberry cheesecake, mint-chocolate icecream, silky pudding, and cupcakes.</p>
+                  </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card mx-auto" style="width: 18rem">
+                  <img src="./Assets/gambar2.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">Original Donughts are one of my favourites. The donughts are seasoned with an icing sugar, with choco-peanut topping which makes for a heavenly delight.</p>
+                  </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card mx-auto" style="width: 18rem">
+                  <img src="./Assets/gambar3.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">This intimate and cozy restaurant is locate in North Jakarta. It seats about 18, with small tables and wooden stools for seats and has an extensive menu for BBQ items. The service is quite good.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- item 3 -->
+            <div class="carousel-item">
+              <div class="row">
+                <!-- card 1 -->
+                <div class="card mx-auto" style="width: 21rem">
+                  <img src="./Assets/gambar1.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">Each time we go, we always order the different assortments of dessert, such as blueberry cheesecake, mint-chocolate icecream, silky pudding, and cupcakes.</p>
+                  </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card mx-auto" style="width: 18rem">
+                  <img src="./Assets/gambar2.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">Original Donughts are one of my favourites. The donughts are seasoned with an icing sugar, with choco-peanut topping which makes for a heavenly delight.</p>
+                  </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card mx-auto" style="width: 18rem">
+                  <img src="./Assets/gambar3.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">This intimate and cozy restaurant is locate in North Jakarta. It seats about 18, with small tables and wooden stools for seats and has an extensive menu for BBQ items. The service is quite good.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- button -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon me-5" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon ms-5" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container mt-3">
+        <img src="./Assets/affamè.png" alt="" height="75" />
+        <div class="row">
+          <div class="col-2">
+            <h5>About</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Reviews</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            </ul>
+          </div>
+
+          <div class="col-2">
+            <h5>Contact</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Partnership</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Careers</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-2">
+            <h5>Support</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Get Help</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Troubleshooting</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Report a Bug</a></li>
+            </ul>
+          </div>
+
+          <div class="col-4 offset-1">
+            <form>
+              <h5>Review Our Website</h5>
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <textarea class="form-control" id="FormReview" rows="3"></textarea>
+              </div>
+              <button class="btn mt-4 mb-3" type="button" id="SendBtn">Send</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between pt-3 border-top">
+          <div class="d-flex" id="left-footer align-items-center">
+            <p class="mx-3">Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p class="ms-5">© 2021 Affame. All Rights Reserved.</p>
+          </div>
+
+          <div class="d-flex flex-column">
+            <p class="text-center">CONNECT WITH US</p>
+            <!-- disini -->
+            <ul class="list-unstyled d-flex me-3">
+              <li class="ms-3">
+                <a class="link-dark" href="#">
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#">
+                  <i class="fab fa-facebook-square fa-2x"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#">
+                  <i class="fab fa-twitter-square fa-2x"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#">
+                  <i class="fab fa-instagram-square fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

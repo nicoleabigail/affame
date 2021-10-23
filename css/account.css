@@ -1,0 +1,84 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  width: auto;
+}
+
+#top-content {
+  background-image: url("../Assets/background-home1.png");
+}
+
+#SendBtn {
+  background-color: #afb8b1;
+}
+
+header {
+  background-color: #e3d5cc;
+}
+
+main {
+  display: block;
+  background-image: url("../Assets/login-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer{
+  background-color: #e3d5cc;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+#form-text input[type="text"] {
+  border: none;
+  background: transparent;
+  border-bottom: 5px solid #000000;
+  outline: none;
+  height: 50px;
+}
+
+#form-pass input[type="password"] {
+  border: none;
+  background: transparent;
+  border-bottom: 5px solid #000000;
+  outline: none;
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.lastform {
+  font-weight: bold;
+}
+
+#button-login {
+  font-weight: bold;
+  color: black;
+}
+::placeholder {
+  color: rgba(10, 10, 10, 0.5);
+}
+
+#FormLogin {
+  background-color: #e3d5cc;
+  width: 100%;
+  height: 1100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#submit{
+  background-color: #9AA7B2;
+}
+
+#margin{
+  margin-left: 250px;
+}
+

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./css/account.css" />
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+
+    <!-- fontawesame -->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <title>Affame</title>
+  </head>
+  <body>
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 sticky-top">
+      <a href="home.html">
+        <img src="./Assets/affamè.png" alt="" height="75" class="mx-5" />
+      </a>
+
+      <div class="search position-relative">
+        <div class="position-absolute top-50 end-0 translate-middle mx-2 mb-2">
+          <i class="fa fa-search"></i>
+        </div>
+        <input type="text" class="form-control rounded-pill" placeholder="Search..." />
+      </div>
+
+      <ul class="nav col-12 col-md-auto mb-2 mx-5 justify-content-center mb-md-0">
+        <li><a href="restaurant.html" class="nav-link px-2 link-dark">Restaurant</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Membership</a></li>
+        <li><a href="aboutus.html" class="nav-link px-2 link-dark">About</a></li>
+        <li>
+          <a href="#" class="nav-link px-2 link-dark"><i class="fas fa-shopping-cart fa-lg"></i></a>
+        </li>
+        <li>
+          <a href="account.html" class="nav-link px-2 link-dark"><i class="far fa-user-circle fa-lg"></i></a>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <div class="form-login" id="FormLogin">
+        <div id="image-login">
+          <img src="./Assets/login-background.png" alt="" class="img-fluid col-12 position-absolute" />
+        </div>
+
+        <div class="col-6 position-absolute bottom-0 start-0 ms-5">
+          <div id="margin">
+            <h2 class="mb-3">Lets' Go !</h2>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"><i class="far fa-user-circle fa-lg me-3"></i>Username</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"><i class="fas fa-lock fa-lg me-3"></i>Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" />
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary text-dark" id="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <img src="./Assets/affamè.png" alt="" height="75" />
+        <div class="row">
+          <div class="col-2">
+            <h5>About</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Reviews</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            </ul>
+          </div>
+
+          <div class="col-2">
+            <h5>Contact</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Partnership</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Careers</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-2">
+            <h5>Support</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Get Help</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Troubleshooting</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Report a Bug</a></li>
+            </ul>
+          </div>
+
+          <div class="col-4 offset-1">
+            <form>
+              <h5>Review Our Website</h5>
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <textarea class="form-control" id="FormReview" rows="3"></textarea>
+              </div>
+              <button class="btn mt-4 mb-3" type="button" id="SendBtn">Send</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between pt-3 border-top">
+          <div class="d-flex" id="left-footer align-items-center">
+            <p class="mx-3">Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p class="ms-5">© 2021 Affame. All Rights Reserved.</p>
+          </div>
+
+          <div class="d-flex flex-column">
+            <p class="text-center">CONNECT WITH US</p>
+            <!-- disini -->
+            <ul class="list-unstyled d-flex me-3">
+              <li class="ms-3">
+                <a class="link-dark" href="#">
+                  <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#">
+                  <i class="fab fa-facebook-square fa-2x"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#">
+                  <i class="fab fa-twitter-square fa-2x"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#">
+                  <i class="fab fa-instagram-square fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
